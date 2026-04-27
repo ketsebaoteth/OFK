@@ -2,9 +2,30 @@
 @layer base {
   :root {
     font-size: clamp(14px, 2vw, 18px);
+    /* Defining a variable for easier changes later */
+    --accent-blue: #3b82f6;
   }
 
   html {
-    @apply bg-gray-900 text-white antialiased;
+    background-color: #020617; /* Deep slate/black */
+    color: #f8fafc;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    
+    /* Sets the blinking text cursor color globally */
+    caret-color: var(--accent-blue);
+  }
+
+  /* Makes the text selection look clean in dark mode */
+  ::selection {
+    background-color: rgba(59, 130, 246, 0.3); /* blue-500 at 30% opacity */
+    color: #ffffff;
+  }
+
+  /* Firefox specific selection fix */
+  ::-moz-selection {
+    background-color: rgba(59, 130, 246, 0.3);
+    color: #ffffff;
   }
 }
