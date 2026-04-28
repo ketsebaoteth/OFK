@@ -5,7 +5,7 @@ onMounted(() => {});
 </script>
 
 <template>
-  <div class="w-screen h-[70vh] z-500 bg-white pt-0 overflow-hidden">
+  <div class="w-screen relative h-[70vh] z-500 bg-white pt-0 overflow-hidden">
     <div class="contentholder bg-gray-400 w-full h-full p-32 flex text-black ">
 
       <div class="w-fit">
@@ -14,20 +14,22 @@ onMounted(() => {});
         <p class="mt-32 text-gray-700 text-sm">© 2025 DeusMachina, Inc. All rights reserved.</p>
       </div>
       
-      <div class="flex flex-col ml-64 text-sm font-light gap-3">
+      <div class="flex flex-col ml-80 text-sm font-light gap-3">
         <p>Contact Us</p>
         <p>About Us</p>
         <p>Work</p>
         <p>FAQ</p>
-        <h1 class="mt-20 text-[350px] -ml-10 w-fit">OFK</h1>
       </div>
-      <div class="flex flex-col text-sm font-light gap-3">
+      <div class="flex flex-col text-sm font-light gap-3 ml-60">
         <p>Instagram</p>
         <p>X</p>
         <p>Linkedin</p>
         <p>TikTok</p>
       </div>
+
     </div>
+        <h1 class="absolute -bottom-14 right-60 text-black text-[350px] leading-[260px] w-fit">OFK</h1>
+
   </div>
 </template>
 

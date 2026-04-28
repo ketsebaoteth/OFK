@@ -5,7 +5,7 @@ onMounted(() => {});
 
 <template>
   <div
-    class="relative z-300 flex h-screen w-screen flex-col gap-16 overflow-hidden bg-black p-20"
+    class="relative z-300 flex w-screen flex-col gap-16 overflow-hidden bg-black p-20"
   >
     <div class="flex flex-col gap-5">
       <h1 class="w-150 text-[80px] leading-20 font-bold">

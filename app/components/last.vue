@@ -5,8 +5,8 @@ onMounted(() => {});
 </script>
 
 <template>
-  <div class="w-screen h-[50vh] p-10 px-5 z-400 bg-white">
-    <div class="w-full h-full cov rounded-2xl flex flex-col gap-10 place-items-center justify-center">
+  <div class="w-screen p-5 z-400 bg-white">
+    <div class="w-full h-full py-10 cov rounded-2xl flex flex-col gap-10 place-items-center justify-center">
       <h1 class="text-[60px] font-black w-175 leading-15 text-center">
         We Care And Build With Quality, Not Just For The Sake Of Building.
       </h1>

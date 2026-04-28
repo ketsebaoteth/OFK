@@ -70,7 +70,7 @@ onMounted(() => {
     <NuxtImg src="/sky.jpg" alt="Hero Image" class="w-screen h-screen absolute top-0 left-0 object-cover brightness-100" />
     <div class="flex grow place-items-end">
       <div class="h-full grow z-10 flex place-items-end">
-        <h1 class="text-[8.2rem] w-[66rem] mt-auto mb-10 leading-[120px] headingText font-bold">Seamless Process Faster Results</h1>
+        <h1 class="text-[8.2rem] mt-auto mb-10 leading-[120px] headingText font-bold">Seamless Process Faster Results</h1>
       </div>
       <div class="flex flex-col gap-5 mb-32 z-10 place-items-end">
         <p class="text-right w-[400px] descriptionText leading-[20px]">A smart way to build, renovate, and deliver lasting structures with precision and speed.</p>
